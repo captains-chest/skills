@@ -12,9 +12,11 @@ Stack-aware project conventions for implementation and refactoring. The skill ma
 
 ## Install
 
+`GENERAL.md` defers comment policy to the `code-comments` skill, so install both together:
+
 ```bash
 npx skills@latest add captains-chest/skills \
-  --skill project-code-standards -y
+  --skill project-code-standards code-comments -y
 ```
 
 ## Extending the skill

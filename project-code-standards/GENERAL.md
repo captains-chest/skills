@@ -16,7 +16,7 @@ For example, separate a price calculation from the operation that loads or saves
 - Prefer declarative composition when it is idiomatic and at least as clear as imperative flow.
 - Prefer data-driven mappings over long conditional chains when behavior is selected by data.
 - Use imperative flow when it improves clarity, performance, resource handling, or framework integration.
-- Explain only surprising or non-obvious trade-offs; ordinary idiomatic control flow needs no justification comment.
+- Let ordinary idiomatic control flow speak for itself. Before writing, keeping, or removing a comment, load the `code-comments` skill; it decides whether the comment belongs.
 
 ## Meaningful numeric literals
 
