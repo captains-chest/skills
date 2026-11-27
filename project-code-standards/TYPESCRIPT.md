@@ -59,4 +59,4 @@ Use TypeScript `private` only when a framework or tool requires a string-address
 - Instrumentation that must patch or spy on internals
 - Interop boundaries that access members by name
 
-Choose the narrowest viable visibility, retain `readonly` where possible, and explain the runtime constraint with a short comment.
+Choose the narrowest viable visibility and retain `readonly` where possible. Let a name, decorator, or type carry the runtime constraint; add a short comment only when the code cannot, as the `code-comments` skill rules.
